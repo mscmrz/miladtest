@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1222</width>
+    <height>749</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>430</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>267</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_treeWidgetColor">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>476</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>95</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_widgetColor">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>426</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_TextlableColor">
+    <property name="geometry">
+     <rect>
+      <x>222</x>
+      <y>267</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>332</y>
+      <width>171</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_LineEditColor">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>303</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>534</y>
+      <width>171</width>
+      <height>70</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_RadioButtonColor">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>63</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>125</y>
+      <width>171</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_GroupBoxColor">
+    <property name="geometry">
+     <rect>
+      <x>221</x>
+      <y>138</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>189</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_CheckBoxColor">
+    <property name="geometry">
+     <rect>
+      <x>222</x>
+      <y>94</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tabWidgetColor">
+    <property name="geometry">
+     <rect>
+      <x>222</x>
+      <y>210</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>458</y>
+      <width>171</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btn_comboBoxColor">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>396</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_doubleSpinBoxColor">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>366</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>301</y>
+      <width>171</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Test</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tableViewColor">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>546</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>364</y>
+      <width>171</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>427</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>64</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_spinBoxColor">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>336</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>32</y>
+      <width>171</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>396</y>
+      <width>171</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_PushButtonColor">
+    <property name="geometry">
+     <rect>
+      <x>221</x>
+      <y>32</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>540</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView_2">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>538</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>663</x>
+      <y>95</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_3">
+    <property name="geometry">
+     <rect>
+      <x>834</x>
+      <y>95</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>366</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>366</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>125</y>
+      <width>141</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>125</y>
+      <width>141</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>332</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>332</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>300</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Test</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>300</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Test</string>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>461</y>
+      <width>141</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>463</y>
+      <width>141</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>667</x>
+      <y>267</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>267</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_4">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>64</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>64</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>189</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>189</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>400</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>832</x>
+      <y>400</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4444444</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btn_LineEditFont">
+    <property name="geometry">
+     <rect>
+      <x>428</x>
+      <y>303</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_PushButtonFont">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>32</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_RadioButtonFont">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>63</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_CheckBoxFont">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>94</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_GroupBoxFont">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>138</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tabWidgetFont">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>210</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_TextlableFont">
+    <property name="geometry">
+     <rect>
+      <x>428</x>
+      <y>267</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_spinBoxFont">
+    <property name="geometry">
+     <rect>
+      <x>428</x>
+      <y>336</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_doubleSpinBoxFont">
+    <property name="geometry">
+     <rect>
+      <x>428</x>
+      <y>366</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_comboBoxFont">
+    <property name="geometry">
+     <rect>
+      <x>428</x>
+      <y>396</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_widgetFont">
+    <property name="geometry">
+     <rect>
+      <x>428</x>
+      <y>426</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_treeWidgetFont">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>476</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tableViewFont">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>546</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_PushButtonGradient">
+    <property name="geometry">
+     <rect>
+      <x>312</x>
+      <y>32</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_widgetGradient">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>426</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_treeWidgetGradient">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>476</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tableViewGradient">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>546</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_TextlableGradient">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>267</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_RadioButtonGradient">
+    <property name="geometry">
+     <rect>
+      <x>312</x>
+      <y>63</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_CheckBoxGradient">
+    <property name="geometry">
+     <rect>
+      <x>311</x>
+      <y>94</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_LineEditGradient">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>303</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_doubleSpinBoxGradient">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>366</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_GroupBoxGradient">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>138</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_spinBoxGradient">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>336</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QTreeView" name="treeView">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>610</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_treeViewColor">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>630</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_treeViewGradient">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>630</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set  Gradient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_treeViewFont">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>630</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font</string>
+    </property>
+   </widget>
+   <widget class="QTreeView" name="treeView_2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>610</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTreeView" name="treeView_3">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>610</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_CheckBoxFontColor">
+    <property name="geometry">
+     <rect>
+      <x>522</x>
+      <y>95</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tableViewFontColor">
+    <property name="geometry">
+     <rect>
+      <x>522</x>
+      <y>547</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tabWidgetFontColor">
+    <property name="geometry">
+     <rect>
+      <x>522</x>
+      <y>211</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_treeViewFontColor">
+    <property name="geometry">
+     <rect>
+      <x>522</x>
+      <y>631</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_widgetFontColor">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>427</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_TextlableFontColor">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>268</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_LineEditFontColor">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>304</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_RadioButtonFontColor">
+    <property name="geometry">
+     <rect>
+      <x>522</x>
+      <y>64</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_treeWidgetFontColor">
+    <property name="geometry">
+     <rect>
+      <x>522</x>
+      <y>477</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_GroupBoxFontColor">
+    <property name="geometry">
+     <rect>
+      <x>522</x>
+      <y>139</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_comboBoxFontColor">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>397</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_spinBoxFontColor">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>337</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_PushButtonFontColor">
+    <property name="geometry">
+     <rect>
+      <x>522</x>
+      <y>33</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_doubleSpinBoxFontColor">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>367</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Font color</string>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>30</y>
+      <width>151</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QPushButton" name="btn_setTheme">
+     <property name="toolTip">
+      <string>CTRL+R</string>
+     </property>
+     <property name="text">
+      <string>Theme</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_ThemeDefault">
+     <property name="text">
+      <string>Theme Default </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_saveTheme">
+     <property name="toolTip">
+      <string>CTRL+S</string>
+     </property>
+     <property name="text">
+      <string>Save theme</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_loadTheme">
+     <property name="toolTip">
+      <string>CTRL+O</string>
+     </property>
+     <property name="text">
+      <string>Load theme file</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_testThemeCode">
+     <property name="toolTip">
+      <string>CTRL+T</string>
+     </property>
+     <property name="text">
+      <string>Test theme code</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_ShowCurrentCode">
+     <property name="text">
+      <string>Show current code</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1222</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
